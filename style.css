@@ -1,0 +1,24 @@
+body{
+    background-image: url("https://images8.alphacoders.com/468/468739.jpg");
+    background-size: cover;
+    font-family: "Barlow Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.planet{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    transition: transform 0.75s ease;
+}
+.planet:hover{
+    transform:scale(1.2);
+
+}
